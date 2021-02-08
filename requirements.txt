@@ -1,5 +1,2 @@
 PyPDF2
-tkinter
 Pillow
-webbrowser
-argparse
