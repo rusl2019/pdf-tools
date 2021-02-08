@@ -29,10 +29,8 @@ Proyek ini dimulai dengan pembuatan script untuk menggabungkan file PDF (merger 
 Program ini di bangun menggunakan beberapa module python, diantaranya sebagai berikut:
 
 - [Python 3](https://www.python.org/)
-- [Tkinter](https://github.com/python/cpython/tree/3.9/Lib/tkinter)
 - [PyPDF2](http://mstamy2.github.io/PyPDF2/)
 - [Pillow](https://python-pillow.org/)
-
 
 ## Prasyarat
 
