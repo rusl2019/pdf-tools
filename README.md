@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rusl2019/pdf-tools">
-    <img src="./img/logo2.png" alt="Logo" width="80" height="80">
+    <img src="./img/logo2.png" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">PDF Tools</h3>
@@ -10,6 +10,8 @@
   <p align="center">
     Alat untuk memanipulasi file PDF
     <br />
+    Versi 1.0.0
+    ·
     <a href="https://github.com/rusl2019/pdf-tools/issues">Melaporkan kesalahan</a>
     ·
     <a href="https://github.com/rusl2019/pdf-tools/issues">Permintaan fitur</a>
@@ -24,50 +26,61 @@
 
 Proyek ini dimulai dengan pembuatan script untuk menggabungkan file PDF (merger PDF file) menggunakan versi CLI (Command Line Interface). selain itu untuk kebutuhan lain ditambahkan fitur "pemecahan" file pdf. pada saat yang bersamaan terpikirkan ide untuk membuat versi GUI (Graphic User Interface) untuk memudahkan pengguna lain.
 
+## Fitur
+
+- menggabungkan file PDF (merger)
+- membagi file PDF (splitter)
+
 ## Dibangun dengan
 
 Program ini di bangun menggunakan beberapa module python, diantaranya sebagai berikut:
 
 - [Python 3](https://www.python.org/)
 - [PyPDF2](http://mstamy2.github.io/PyPDF2/)
-- [Pillow](https://python-pillow.org/)
 
-## Prasyarat
+## Pengujian
 
-Untuk prasyarat dapat diinstall menggunakan perintah:
+Program ini di uji pada:
 
-- pip3
-```sh
-pip3 install -Ur requirements.txt
-```
+- sistem operasi Linux ([MX Linux](https://mxlinux.org/))
+- menggunakan [anaconda python](https://www.anaconda.com/) versi 2020.11 
+
 
 ## Penggunaan
 
-Penggunakan `Tools PDF` sangat mudah, seperti script python pada umumnya:
+Penggunakan `Tools PDF` sangat mudah, seperti script python pada umumnya. pertama download repository atau clone repository
+
+- git
+
+```sh
+git clone https://github.com/rusl2019/pdf-tools.git
+```
+
+kemudian jalankan script python
 
 - python3
 ```sh
 python3 pdf-tools.py
 ```
 
-atau jika user menggunakan OS berbasis UNIX, dapat dilakukan dengan peritah:
+jika user menggunakan OS berbasis UNIX, dapat dilakukan dengan peritah:
 
 - GUI
-```
+```sh
 ./pdf-tools.py
 ```
 - CLI
-```
+```sh
 ./pdf-tools.py --help
 ```
 
 ## Lisensi
 
-Didistribusikan di bawah Lisensi MIT. Lihat `LISENSI` untuk informasi lebih lanjut.
+Didistribusikan di bawah Lisensi MIT. Lihat [`LISENSI`](https://github.com/rusl2019/pdf-tools/blob/main/LICENSE) untuk informasi lebih lanjut.
 
 ## Kontak
 
-Muhammad Ruslan - muhammad.ruslan14@gmail.com - [website](rusl2019.github.io)
+Muhammad Ruslan - muhammad.ruslan14@gmail.com - [website](https://rusl2019.github.io)
 
 Project Link: [pdf-tools](https://github.com/rusl2019/pdf-tools)
 
