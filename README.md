@@ -74,6 +74,8 @@ jika user menggunakan OS berbasis UNIX, dapat dilakukan dengan peritah:
 ./pdf-tools.py --help
 ```
 
+untuk user yang ingin menginstall program di OS Windows dapat mendownload program di [link ini](https://github.com/rusl2019/pdf-tools/releases/download/v1.0.0/setup-Tools-PDF-ver1.0.0.exe)
+
 ## Lisensi
 
 Didistribusikan di bawah Lisensi MIT. Lihat [`LISENSI`](https://github.com/rusl2019/pdf-tools/blob/main/LICENSE) untuk informasi lebih lanjut.
