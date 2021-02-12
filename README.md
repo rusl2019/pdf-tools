@@ -30,6 +30,7 @@ Proyek ini dimulai dengan pembuatan script untuk menggabungkan file PDF (merger 
 
 - menggabungkan file PDF (merger)
 - membagi file PDF (splitter)
+- mengkonversi file gambar (*.png *.jpg) ke file PDF
 
 ## Dibangun dengan
 
@@ -37,6 +38,7 @@ Program ini di bangun menggunakan beberapa module python, diantaranya sebagai be
 
 - [Python 3](https://www.python.org/)
 - [PyPDF2](http://mstamy2.github.io/PyPDF2/)
+- [Pillow](https://python-pillow.org/)
 
 ## Pengujian
 
