@@ -10,7 +10,7 @@
   <p align="center">
     Alat untuk memanipulasi file PDF
     <br />
-    Versi 1.0.0
+    Versi 1.1.0
     ·
     <a href="https://github.com/rusl2019/pdf-tools/issues">Melaporkan kesalahan</a>
     ·
